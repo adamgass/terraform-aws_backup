@@ -9,7 +9,7 @@ resource "aws_kms_key" "aws_backup_key" {
             "Sid": "Enable IAM User Permissions",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::363638675288:root"
+                "AWS": "arn:aws:iam::${var.aws_account}:root"
             },
             "Action": "kms:*",
             "Resource": "*"
