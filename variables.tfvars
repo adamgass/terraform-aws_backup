@@ -1,0 +1,9 @@
+aws_account       = 
+region            = 
+backup_plan_name  = 
+backup_rule_1     = 
+backup_vault_name = 
+schedule          = 
+lifecycle_rule    = 
+backup_selection  = 
+backup_tag_value  = 
